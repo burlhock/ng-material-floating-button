@@ -33,6 +33,7 @@
          toggling-method="{{ctrl.chosen.method}}" menu-state="ctrl.menuState" main-action="ctrl.mainAction()">
       <button  mfb-button icon="{{button.icon}}" href="{{button.href}}"
          template-url="ng-mfb-button-md.tpl.html" ng-click="ctrl.loc(button.href)"
+         button-class="{{button.class}}"
          label="{{button.label}}" ng-repeat="button in ctrl.buttons"></button>
     </nav>
 
@@ -113,6 +114,7 @@
     },{
       label: 'Share on Twitter',
       icon: 'share',
+      class: 'twitter-button',
       href: 'http://twitter.com/share?text=Amazing material floating action button directive!&url=http://nobitagit.github.io/ng-material-floating-button/&hashtags=angular,angularjs,material,design,button'
     }];
 

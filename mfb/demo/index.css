@@ -147,6 +147,10 @@ footer a, footer a:active, footer a:visited{
   box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, 0.26);
 }
 
+.twitter-button, .twitter-button .md-fab.md-button {
+  background-color: #689F38;
+}
+
 code, pre {
   background: rgba(255,255,255,0.1);
   color:  rgba(232, 216, 49, 0.9);
