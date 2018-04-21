@@ -1,2 +1,2 @@
-require('./dist/mfb.js')
-module.exports = 'ng-mfb'
+import "./mfb/dist/mfb.js";
+export default 'ng-mfb';
